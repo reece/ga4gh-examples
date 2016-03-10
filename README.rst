@@ -13,6 +13,7 @@ Do something roughly like this: ::
 
   cd server
   pip install -r requirements.txt
+  python setup.py develop
   python scripts/prepare_compliance_data.py -i ../compliance/test-data -o ga4gh-example-data
   python server_dev.py &
 
